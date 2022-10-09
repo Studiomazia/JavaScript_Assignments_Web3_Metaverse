@@ -1,0 +1,28 @@
+// JS Task No 25
+// Alien Colors #1: Imagine an alien was just shot down in a game. Create a variable called alien_color and assign it a
+// value of 'green', 'yellow', or 'red'.
+// • Write an if statement to test whether the alien’s color is green. If it is, print a message that the player just
+// earned 5 points.
+// • Write one version of this program that passes the if test and another that fails. (The version that fails will have
+//   no output.)
+
+//Alien Colors #1
+
+var alien_color;
+
+// comment this if you want failure part to execure, otherwise ok.
+alien_color = "Green";
+
+// Uncomment if you want to execute test failure version.
+// alien_color = "Red";
+
+//passed test
+
+if (alien_color === "green") {
+  console.log("The player earned 5 points.");
+}
+
+//failed test
+
+if (alien_color === "Red") {
+}
